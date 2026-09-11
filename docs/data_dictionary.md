@@ -17,8 +17,8 @@ this data was collected at Duke University medical center, where they collected 
 | `age` | Age of the patient in years. |
 | `race` | Race of the patient: Black or White. |
 | `sex` | Sex of the patient: male or female. |
-| `dx` | Unknown. |
-| `priordx` | Unknown. |
+| `dx` | diagnosis provisional 
+| `priordx` | prior diagnosis before admission|
 | `priorrx` | Whether the patient received antibiotics before admission to the hospital: `0 = no`, `1 = yes`. |
 | `wbc` | White blood cell count per 1,000 in a blood sample. |
 | `pmn` | Percentage of polymorphonuclear leukocytes in blood. |
@@ -28,7 +28,7 @@ this data was collected at Duke University medical center, where they collected 
 | `offrx` | Unknown. |
 | `lptodc` | Unknown. |
 | `lpgap` | Hours between the first lumbar puncture and the second, if a second lumbar puncture was conducted. |
-| `morelabs` | Unknown. |
+| `morelabs` | Unknown. | whether morelabs were done
 | `bloodgl` | Blood glucose level in mg/dL. |
 | `gl` | Cerebrospinal fluid glucose level in mg/dL. |
 | `pr` | Cerebrospinal fluid protein level in mg/dL. |
@@ -39,7 +39,7 @@ this data was collected at Duke University medical center, where they collected 
 | `monos` | Unknown; possibly cerebrospinal fluid monocyte percentage. |
 | `others` | Unknown; possibly percentage of other white blood cell types in cerebrospinal fluid. |
 | `gram` | Gram smear result: `0 = Gram-negative`; positive values mean Gram-positive. |
-| `culture` | Unknown. |
+| `culture` | Unknown. | culture results 
 | `cie` | Unknown; possibly counterimmunoelectrophoresis test result for specific bacterial antigens, but coding is unclear. |
 | `bloodclt` | Unknown. |
 | `bloodgl2` | Unknown; possibly blood glucose level at the time of the second lumbar puncture. |
